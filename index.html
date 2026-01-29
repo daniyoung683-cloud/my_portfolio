@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Nweke | Offensive Security</title>
+    <meta name="description" content="Portfolio of Daniel Nweke, Penetration Tester and Offensive Security Specialist.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">
+                <div class="logo-icon">D</div>
+                <span>Nweke<span class="dot">.</span></span>
+            </a>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link"><span class="nav-num">01.</span> About</a></li>
+                <li><a href="#expertise" class="nav-link"><span class="nav-num">02.</span> Expertise</a></li>
+                <li><a href="#projects" class="nav-link"><span class="nav-num">03.</span> Work</a></li>
+                <li><a href="#certifications" class="nav-link"><span class="nav-num">04.</span> Certifications</a></li>
+                <li><a href="#blog" class="nav-link"><span class="nav-num">05.</span> Articles</a></li>
+                <li><a href="#contact" class="nav-link btn-glow">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="mono-accent">Hi, my name is</p>
+                <h1 class="glitch-text">Daniel Nweke.</h1>
+                <h2 class="hero-subtitle">I break systems to <span class="txt-type" data-wait="2000" data-words='["secure them.", "expose vulnerabilities.", "protect assets."]'></span></h2>
+                <p class="hero-desc">
+                    I am a Penetration Tester specializing in offensive security. I simulate advanced adversary tactics to identify critical weaknesses in your digital infrastructure before the real threats arrive.
+                </p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">Check my Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">01.</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Security is not a product; it's a process. As a <strong>Penetration Tester</strong>, I don't just run automated scans, I think like a human adversary.
+                    </p>
+                    <p>
+                        My work involves dissecting complex networks, reverse-engineering applications, and crafting custom exploit chains. From <strong>Internal Network Segmentation</strong> tests to <strong>API Authorization and Authentication</strong> audits, I provide the technical rigor required to secure modern enterprises.
+                    </p>
+                    <ul class="tech-list">
+                        <li><i class="fas fa-caret-right"></i> Network Pentesting</li>
+                        <li><i class="fas fa-caret-right"></i> Web Application Security</li>
+                        <li><i class="fas fa-caret-right"></i> Cloud (AWS, Azure, GCP, Digital Ocean)</li>
+                        <li><i class="fas fa-caret-right"></i> Mobile Security (iOS, Android)</li>
+                        <li><i class="fas fa-caret-right"></i> Python & Bash Scripting</li>
+                        <li><i class="fas fa-caret-right"></i> Social Engineering</li>
+                    </ul>
+                </div>
+                
+                <div class="about-img-wrapper" data-tilt>
+                    <div class="img-frame">
+                        <img src="profile.jpeg" alt="Daniel Nweke" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">02.</span>
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="cards-grid">
+                <div class="glass-card" data-tilt>
+                    <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Network Operations</h3>
+                    <p>Internal/External infrastructure assessment, Active Directory exploitation, and lateral movement simulation.</p>
+                </div>
+                <div class="glass-card" data-tilt>
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <h3>Application Security</h3>
+                    <p>Black-box testing for OWASP Top 10, API logic flaws, and secure code review for critical applications.</p>
+                </div>
+                <div class="glass-card" data-tilt>
+                    <div class="card-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Cloud Security</h3>
+                    <p>Misconfiguration analysis in AWS/Azure environments, IAM privilege escalation, and container escapes.</p>
+                </div>
+                 <div class="glass-card" data-tilt>
+                    <div class="card-icon"><i class="fas fa-terminal"></i></div>
+                    <h3>Red Teaming</h3>
+                    <p>Adversary emulation, social engineering (phishing), and physical security assessments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">03.</span>
+                <h2 class="section-title">Engagements</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="project-showcase">
+                <div class="project-content">
+                    <p class="project-overline">Case Study</p>
+                    <h3 class="project-title">OWASP Juice Shop Audit</h3>
+                    <div class="project-desc">
+                        <p>A full-scope penetration test on a mock e-commerce platform. Identified critical vulnerabilities including Broken Access Control and Injection flaws, resulting in full administrative takeover.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Burp Suite</li>
+                        <li>SQLMap</li>
+                        <li>Manual Testing</li>
+                    </ul>
+                </div>
+                <div class="project-visual">
+                    <div class="visual-art art-1"><i class="fas fa-bug"></i></div>
+                </div>
+            </div>
+
+            <div class="project-showcase reverse">
+                <div class="project-content">
+                    <p class="project-overline">Case Study</p>
+                    <h3 class="project-title">API Authorization Lab</h3>
+                    <div class="project-desc">
+                        <p>Analyzed REST API endpoints for logic flaws. Uncovered IDOR (Insecure Direct Object Reference) vulnerabilities allowing unauthorized data exfiltration across tenant boundaries.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Postman</li>
+                        <li>Python Scripting</li>
+                        <li>JWT Analysis</li>
+                    </ul>
+                </div>
+                <div class="project-visual">
+                     <div class="visual-art art-2"><i class="fas fa-server"></i></div>
+                </div>
+            </div>
+
+             <div class="project-showcase">
+                <div class="project-content">
+                    <p class="project-overline">Case Study</p>
+                    <h3 class="project-title">Internal MITM Simulation</h3>
+                    <div class="project-desc">
+                        <p>Simulated an insider threat using Man-in-the-Middle techniques. Demonstrated the risk of unencrypted protocols (HTTP/Telnet) by capturing cleartext credentials on the local subnet.</p>
+                    </div>
+                    <ul class="project-tech">
+                        <li>Wireshark</li>
+                        <li>Ettercap</li>
+                        <li>Network Analysis</li>
+                    </ul>
+                </div>
+                <div class="project-visual">
+                    <div class="visual-art art-3"><i class="fas fa-wifi"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">04.</span>
+                <h2 class="section-title">Certifications</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="certs-grid">
+                <div class="cert-card" data-tilt>
+                    <div class="cert-header">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <span class="cert-status active">Active</span>
+                    </div>
+                    <h3>PECB Lead Pentest Professional</h3>
+                    <p class="cert-issuer">Professional Evaluation & Certification Board</p>
+                </div>
+
+                <div class="cert-card" data-tilt>
+                    <div class="cert-header">
+                        <i class="fas fa-shield-alt cert-icon"></i>
+                        <span class="cert-status active">Active</span>
+                    </div>
+                    <h3>Certified AppSec Practitioner</h3>
+                    <p class="cert-issuer">The SecOps Group</p>
+                </div>
+
+                <div class="cert-card" data-tilt>
+                    <div class="cert-header">
+                        <i class="fas fa-laptop-code cert-icon"></i>
+                        <span class="cert-status active">Active</span>
+                    </div>
+                    <h3>eJPT</h3>
+                    <p class="cert-issuer">eLearnSecurity</p>
+                </div>
+
+                <div class="cert-card" data-tilt>
+                    <div class="cert-header">
+                        <i class="fas fa-network-wired cert-icon"></i>
+                        <span class="cert-status active">Active</span>
+                    </div>
+                    <h3>Cisco Ethical Hacker</h3>
+                    <p class="cert-issuer">Cisco Networking Academy</p>
+                </div>
+
+                <div class="cert-card in-progress" data-tilt>
+                    <div class="cert-header">
+                        <i class="fas fa-spinner cert-icon"></i>
+                        <span class="cert-status loading">In Progress</span>
+                    </div>
+                    <h3>eWPT</h3>
+                    <p class="cert-issuer">eLearnSecurity Web App</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">05.</span>
+                <h2 class="section-title">Latest Articles</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="blog-grid">
+                <a href="#" class="blog-card">
+                    <div class="blog-top">
+                        <i class="far fa-folder-open"></i>
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                    <h3>Missing Security Headers in 2026</h3>
+                    <p>Why browser-based protections are your first line of defense against client-side attacks.</p>
+                    <div class="blog-tags">
+                        <span>Web Security</span>
+                        <span>Defense</span>
+                    </div>
+                </a>
+
+                <a href="#" class="blog-card">
+                    <div class="blog-top">
+                        <i class="far fa-folder-open"></i>
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                    <h3>Automating CVE Scanning</h3>
+                    <p>Integrating Snyk into GitLab CI/CD pipelines to catch vulnerabilities before deployment.</p>
+                    <div class="blog-tags">
+                        <span>DevSecOps</span>
+                        <span>Automation</span>
+                    </div>
+                </a>
+
+                <a href="#" class="blog-card">
+                    <div class="blog-top">
+                        <i class="far fa-folder-open"></i>
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                    <h3>Broken Access Control</h3>
+                    <p>A deep dive into horizontal privilege escalation and how to fix it.</p>
+                    <div class="blog-tags">
+                        <span>Pentesting</span>
+                        <span>OWASP</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container center-text">
+            <h2 class="footer-title">What's Next?</h2>
+            <p class="footer-desc">I am currently open to new opportunities and consulting engagements.</p>
+            
+            <div class="contact-actions">
+                <a href="mailto:danielnweke613@gmail.com" class="btn btn-primary big-btn">Get In Touch</a>
+                <a href="https://wa.me/2349161412317" target="_blank" class="btn btn-whatsapp big-btn">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+            
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/daniel-n-5561b8221"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">Designed & Built by Daniel Nweke</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
