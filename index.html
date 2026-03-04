@@ -16,6 +16,23 @@
 </head>
 <body>
 
+    <div id="scroll-progress"></div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <div id="boot-screen">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <span class="btn-close"></span>
+                <span class="btn-min"></span>
+                <span class="btn-max"></span>
+                <span class="terminal-title">root@dnweke:~</span>
+            </div>
+            <div class="terminal-body" id="boot-text"></div>
+        </div>
+    </div>
+
     <div class="background-mesh">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
@@ -61,6 +78,25 @@
             </div>
         </div>
     </section>
+
+    <div class="tech-marquee">
+        <div class="marquee-track">
+            <span class="marquee-item"><i class="fas fa-bug"></i> Burp Suite Pro</span>
+            <span class="marquee-item"><i class="fab fa-python"></i> Python</span>
+            <span class="marquee-item"><i class="fas fa-network-wired"></i> BloodHound</span>
+            <span class="marquee-item"><i class="fas fa-wifi"></i> Wireshark</span>
+            <span class="marquee-item"><i class="fas fa-terminal"></i> Metasploit</span>
+            <span class="marquee-item"><i class="fab fa-linux"></i> Kali Linux</span>
+            <span class="marquee-item"><i class="fas fa-server"></i> Active Directory</span>
+            <span class="marquee-item"><i class="fas fa-bug"></i> Burp Suite Pro</span>
+            <span class="marquee-item"><i class="fab fa-python"></i> Python</span>
+            <span class="marquee-item"><i class="fas fa-network-wired"></i> BloodHound</span>
+            <span class="marquee-item"><i class="fas fa-wifi"></i> Wireshark</span>
+            <span class="marquee-item"><i class="fas fa-terminal"></i> Metasploit</span>
+            <span class="marquee-item"><i class="fab fa-linux"></i> Kali Linux</span>
+            <span class="marquee-item"><i class="fas fa-server"></i> Active Directory</span>
+        </div>
+    </div>
 
     <section id="about" class="section">
         <div class="container">
@@ -228,7 +264,7 @@
                         <span class="cert-status active">Active</span>
                     </div>
                     <h3>eJPT</h3>
-                    <p class="cert-issuer">eLearnSecurity</p>
+                    <p class="cert-issuer">INE Security</p>
                 </div>
 
                 <div class="cert-card" data-tilt>
@@ -240,13 +276,31 @@
                     <p class="cert-issuer">Cisco Networking Academy</p>
                 </div>
 
+                <div class="cert-card" data-tilt>
+                    <div class="cert-header">
+                        <i class="fas fa-globe cert-icon"></i>
+                        <span class="cert-status active">Active</span>
+                    </div>
+                    <h3>eWPT</h3>
+                    <p class="cert-issuer">INE Security</p>
+                </div>
+
                 <div class="cert-card in-progress" data-tilt>
                     <div class="cert-header">
                         <i class="fas fa-spinner cert-icon"></i>
                         <span class="cert-status loading">In Progress</span>
                     </div>
-                    <h3>eWPT</h3>
-                    <p class="cert-issuer">eLearnSecurity Web App</p>
+                    <h3>eCPPT</h3>
+                    <p class="cert-issuer">INE Security</p>
+                </div>
+
+                <div class="cert-card in-progress" data-tilt>
+                    <div class="cert-header">
+                        <i class="fas fa-spinner cert-icon"></i>
+                        <span class="cert-status loading">In Progress</span>
+                    </div>
+                    <h3>CRTP</h3>
+                    <p class="cert-issuer">Altered Security</p>
                 </div>
             </div>
         </div>
@@ -263,7 +317,10 @@
             <div class="blog-grid">
                 <a href="https://www.linkedin.com/pulse/modern-web-apps-dont-get-hacked-sqli-anymore-heres-what-daniel-nweke-sxfaf" class="blog-card">
                     <div class="blog-top">
-                        <i class="far fa-folder-open"></i>
+                        <div class="blog-top-left">
+                            <i class="far fa-folder-open"></i>
+                            <span class="read-time"><i class="far fa-clock"></i> 5 min read</span>
+                        </div>
                         <i class="fas fa-external-link-alt"></i>
                     </div>
                     <h3>Modern Web Apps Don't Get Hacked by SQLi Anymore: Here's What Actually Breaks Them</h3>
@@ -276,7 +333,10 @@
 
                 <a href="#" class="blog-card">
                     <div class="blog-top">
-                        <i class="far fa-folder-open"></i>
+                        <div class="blog-top-left">
+                            <i class="far fa-folder-open"></i>
+                            <span class="read-time"><i class="far fa-clock"></i> 3 min read</span>
+                        </div>
                         <i class="fas fa-external-link-alt"></i>
                     </div>
                     <h3>Automating CVE Scanning</h3>
@@ -289,7 +349,10 @@
 
                 <a href="#" class="blog-card">
                     <div class="blog-top">
-                        <i class="far fa-folder-open"></i>
+                        <div class="blog-top-left">
+                            <i class="far fa-folder-open"></i>
+                            <span class="read-time"><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
                         <i class="fas fa-external-link-alt"></i>
                     </div>
                     <h3>Broken Access Control</h3>
